@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.trungnguyenhau.shoponline24h.Fragment.LoadDataApplication">
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_shopping"/>
+
+    <ImageButton
+        android:id="@+id/imagebutton_letgo"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/icon_letgo"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/rt_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_skip"
+            android:text="@string/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:text="@string/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:textSize="15dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <View
+                android:id="@+id/indicator1"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/bg_indicator_unactive"/>
+
+            <View
+                android:id="@+id/indicator2"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_toRightOf="@+id/indicator1"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/bg_indicator_unactive"/>
+
+            <View
+                android:id="@+id/indicator3"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_toRightOf="@+id/indicator2"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/bg_indicator_unactive"/>
+
+            <View
+                android:id="@+id/indicator4"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_toRightOf="@+id/indicator3"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/bg_indicator_active"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

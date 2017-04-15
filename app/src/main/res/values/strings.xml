@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Shop 24h Online</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="ic_sport_title">Giày ADIDAS SPRINGBLADE DRIVE 2.0 độc lạ chất !!</string>
+    <string name="ic_sport_description">(Hàng order, size 36 ~ 46 ) Bạn mệt mỏi khi phải đi bộ đi học đi làm hàng giờ? Bạn không có động lực khi phải chạy bộ tập luyện mỗi ngày ?
+        Mọi thứ sẽ trở nên thú vị hơn khi bạn mang Adidas Springblade Drive 2.0 đấy!</string>
+
+    <string name="ic_phone_title">Điện thoại iPhone 7 Plus 32GB</string>
+    <string name="ic_phone_description">Với thiết kế không quá nhiều thay đổi, vẫn bảo tồn vẻ đẹp truyền thống từ thời
+        iPhone 6 Plus,  iPhone 7 Plus 32GB được trang bị nhiều nâng cấp đáng giá như camera kép, đạt chuẩn chống nước chống
+        bụi cùng cấu hình cực mạnh.</string>
+
+    <string name="ic_laptop_title">HP Pavilion 14-AL010TU</string>
+    <string name="ic_laptop_description">Laptop HP Pavilion 14 AL010TU X3B85PA mang màu vàng sang trọng, quý phái tôn lên
+        đẳng cấp người dùng. Màn hình kích thước 14 inches, độ phân giải 1366 x 768 Pixels cho chất lượng hiển thị sắc nét,
+        màu sắc hài hòa. Cấu hình mạnh mẽ với bộ vi xử lý thế hệ mới Intel Core i5 SkyLake, RAM 4GB, laptop HP Pavilion 14
+        AL010TU X3B85PA chạy đa nhiệm mượt mà, phục vụ tốt nhu cầu làm việc, học tập và giải trí.</string>
+
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="search">Tìm kiếm sản phẩm</string>
+    <string name="khuyenmai">Chương trình khuyến mãi</string>
+    <string name="noibat">Nổi bật</string>
+    <string name="dientu">Điện tử</string>
+    <string name="nhacuavadoisong">Nhà cửa và đời sốngi</string>
+
+    <string name="mevabe">Mẹ và bé</string>
+    <string name="lamdep">Làm đẹp</string>
+    <string name="thoitrang">Thời trang</string>
+    <string name="thethaovadulich">Thể thao và du lịch</string>
+    <string name="thuonghieu">Thương hiệu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
