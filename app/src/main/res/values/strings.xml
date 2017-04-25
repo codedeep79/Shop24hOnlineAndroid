@@ -2,6 +2,8 @@
     <string name="app_name">Shop 24h Online</string>
 
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 
     <string name="ic_sport_title">Giày ADIDAS SPRINGBLADE DRIVE 2.0 độc lạ chất !!</string>
     <string name="ic_sport_description">(Hàng order, size 36 ~ 46 ) Bạn mệt mỏi khi phải đi bộ đi học đi làm hàng giờ? Bạn không có động lực khi phải chạy bộ tập luyện mỗi ngày ?
@@ -34,6 +36,6 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="facebook_app_id">1298627993546183</string>
 
 </resources>

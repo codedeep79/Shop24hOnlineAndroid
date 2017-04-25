@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/giao_dien_quen_mat_khau"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.trungnguyenhau.shoponline.Views.DangNhap_DangKy.QuenMatKhau">
+
+    <LinearLayout
+        android:id="@+id/giao_dien_nhap_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhập vào tên đăng nhập hoặc địa chỉ email: "
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/edittext_tendangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên đăng nhập hoặc địa chỉ email ..."/>
+
+            <Button
+                android:id="@+id/button_xac_nhan_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xác nhận"
+                android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/giao_dien_nhap_mat_khau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:layout_gravity="top"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(*): Thông tin bắt buộc"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhập mật khẩu (*): "
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/edittext_matkhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu ..."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhập lại mật khẩu (*): "
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/edittext_nhaplaimatkhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập lại mật khẩu ..."/>
+
+        <Button
+            android:id="@+id/button_doi_mat_khau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đổi mật khẩu"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageview_bg_quenmatkhau"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent" />
+</LinearLayout>

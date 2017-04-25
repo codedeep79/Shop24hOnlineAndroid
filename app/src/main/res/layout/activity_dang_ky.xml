@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/giao_dien_dang_ky"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.trungnguyenhau.shoponline.Views.DangNhap_DangKy.DangKy">
+
+    <TextView
+        android:id="@+id/textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="ĐĂNG KÝ" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_tenthanhvien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Tên thành viên (*)"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edittext_tenthanhvien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên thành viên..."
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textview_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="Email (*)" />
+        <EditText
+            android:id="@+id/edittext_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email..."
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textview_matkhaudangnhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="Mật khẩu (*)" />
+        <EditText
+            android:id="@+id/edittext_matkhaudangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:hint="Mật khẩu..." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textview_diachi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="Địa chỉ" />
+        <EditText
+            android:id="@+id/edittext_diachi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:hint="Địa chỉ..." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textview_ngaysinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="Ngày sinh" />
+
+        <Spinner
+            android:id="@+id/spinner_ngaysinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_thangsinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_namsinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_gioitinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Giới tính"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_gioitinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textview_sodienthoai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="Số điện thoại" />
+        <EditText
+            android:id="@+id/edittext_sodienthoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:hint="Số điện thoại..." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textview_cmnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="Số chứng minh thư" />
+        <EditText
+            android:id="@+id/edittext_cmnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:hint="Số chứng minh thư..." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/button_dangky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="Đăng ký" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

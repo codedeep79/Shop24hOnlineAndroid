@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "419308734821",
+    "firebase_url": "https://thuongmaidientu-shop24h.firebaseio.com",
+    "project_id": "thuongmaidientu-shop24h",
+    "storage_bucket": "thuongmaidientu-shop24h.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419308734821:android:e17ba24fcc18c163",
+        "android_client_info": {
+          "package_name": "com.example.trungnguyenhau.shoponline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419308734821-2lqejrfq7cihdrrq6apqqo9dhmijap0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trungnguyenhau.shoponline",
+            "certificate_hash": "4e791111aa79e619497999c8b4b49a8cd7474500"
+          }
+        },
+        {
+          "client_id": "419308734821-mhl4s176jhrhdro0sukcp7suftmrflhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJhdX33Yw5DhXIZn5VK6f1YqsUIjC5Yxw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419308734821-mhl4s176jhrhdro0sukcp7suftmrflhc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
